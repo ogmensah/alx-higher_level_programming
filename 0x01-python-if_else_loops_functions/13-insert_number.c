@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * insert_nod - inserts new node in a linked list
+ * insert_node - inserts new node in a linked list
  * @head: linked list pointer
- * @ number: value held by new node to the new node
+ * @number: value held by new node to the new node
  *
  * Return: returns pointer to the new node inserted
  *
@@ -14,7 +14,7 @@ listint_t *insert_node(listint_t **head, int number)
 
 	if (*head == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	new_node = (listint_t *)malloc(sizeof(listint_t));
@@ -29,9 +29,11 @@ listint_t *insert_node(listint_t **head, int number)
 		return (new_node);
 	}
 
+	next_node = prev_node->next;
 	while (next_node->next != NULL && next_node->n <= number)
 	{
-		next_node = prev_node->next;
+		prev_node = next_node;
+		next_node = next_node->next;
 	}
 	new_node->next = next_node;
 	prev_node->next = new_node;
