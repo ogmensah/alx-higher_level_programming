@@ -4,5 +4,5 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         print("0 arguments.")
     else:
-        for n, arg in enumerate(sys.argv[1:], start = 1):
+        for n, arg in enumerate(sys.argv[1:], start=1):
             print(f"{n:d}: {arg}")
