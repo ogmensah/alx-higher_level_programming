@@ -5,7 +5,7 @@ def convert_roman(ch):
     """
     converts a roman numeral character into the respective integer
     """
-    romint = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+    romint = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     return romint.get(ch, -1)
 
 
