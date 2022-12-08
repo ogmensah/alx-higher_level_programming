@@ -5,22 +5,8 @@ def convert_roman(ch):
     """
     converts a roman numeral character into the respective integer
     """
-    ret = -1
-    if ch == 'I':
-        ret = 1
-    elif ch == 'V':
-        ret = 5
-    elif ch == 'X':
-        ret = 10
-    elif ch == 'L':
-        ret = 50
-    elif ch == 'C':
-        ret = 100
-    elif ch == 'D':
-        ret = 500
-    elif ch == 'M':
-        ret = 1000
-    return ret
+    romint = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+    return romint.get(ch, -1)
 
 
 def roman_to_int(roman_string):
