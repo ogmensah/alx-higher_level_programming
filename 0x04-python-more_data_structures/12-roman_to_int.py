@@ -17,7 +17,7 @@ def roman_to_int(roman_string):
     cur = conv = 0
     holder = []
 
-    if roman_string == None or not isinstance(roman_string, str):
+    if roman_string is None or not isinstance(roman_string, str):
         return 0
     for c in roman_string:
         cur = convert_roman(c)
