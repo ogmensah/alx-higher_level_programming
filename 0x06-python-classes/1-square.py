@@ -4,7 +4,7 @@ A Square Class
 """
 
 
-class Square(object):
+class Square:
 
     def __init__(self, size):
         """__init__
