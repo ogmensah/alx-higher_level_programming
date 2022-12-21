@@ -2,7 +2,5 @@
 
 
 class Square:
-    """Square Class
-    This class don't do anything for the moment
-    """
+    """A simple example class"""
     pass
