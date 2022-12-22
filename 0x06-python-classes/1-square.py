@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Square Class
-A Square Class
-"""
+"""contains square class which requires size of square during initialization"""
 
 
 class Square:
+    """A Square Class"""
 
     def __init__(self, size):
         """__init__
