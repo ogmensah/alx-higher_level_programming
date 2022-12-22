@@ -1,9 +1,14 @@
 #!/usr/bin/python3
+"""Module contains class Square"""
+
+
 import dis
 import math
 
 
 class MagicClass:
+    """Magic Class just does magic"""
+
     def __init__(self, radius=0):
         self.__radius = 0
 

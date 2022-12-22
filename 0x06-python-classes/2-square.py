@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""Square Class
-A Square Class
-"""
+"""Module contains class Square"""
 
 
 class Square:
+    """A Square Class"""
 
     def __init__(self, size=0):
         """__init__
