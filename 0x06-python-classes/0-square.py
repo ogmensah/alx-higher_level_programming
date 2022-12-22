@@ -2,5 +2,7 @@
 
 
 class Square:
-    """A simple example class"""
+    """
+    A simple example class
+    """
     pass
