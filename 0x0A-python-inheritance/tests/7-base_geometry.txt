@@ -1,5 +1,4 @@
 # 7-base_geometry.txt
-# Carlos Barros <1543@holbertonschool.com>
 
 ===========================
 How to Use 7-base_geometry.py
@@ -10,7 +9,7 @@ This module defines an function divides all elements of a matrix ``def integer_v
 Usage
 =====
 
-``base_geometry(...)```  validates value
+``base_geometry(...)``  validates value
 ---------------------
 
 ::
