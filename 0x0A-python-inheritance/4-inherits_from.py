@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" This module contains function which checks an object is an instance of a class or of a class that inherited form"""
+""" This module contains function which
+checks an object is an instance of a
+class or of a class that inherited form"""
 
 
 def inherits_from(obj, a_class):
