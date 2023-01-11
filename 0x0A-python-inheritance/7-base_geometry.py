@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""The is module a base geometry class"""
+"""The is module of base geometry class"""
 
 
 class BaseGeometry(object):
-    """Define class base geometry"""
+    """Defines class base geometry"""
     def area(self):
         """computes area
         Raises:
