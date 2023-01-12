@@ -27,4 +27,4 @@ class Student(object):
         for key, value in self.__dict__.items():
             if key in attrs:
                 dictionary[key] = value
-        return dictionary 
+        return dictionary
