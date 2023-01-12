@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# 3-write_file.py
-""" File name : 3-write_file.py
+""" File name : 1-write_file.py
 """
 
 

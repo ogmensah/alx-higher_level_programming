@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# 11-student.py
-# Carlos Barros <1543@holbertonschool.com>
-""" File name : 11-student.py
+""" File name : 9-student.py
 """
 
 

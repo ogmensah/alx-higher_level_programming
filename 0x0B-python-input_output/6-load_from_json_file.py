@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# 8-load_from_json_file.py
-""" File name : 8-load_from_json_file.py
+""" File name : 6-load_from_json_file.py
 """
 import json
 

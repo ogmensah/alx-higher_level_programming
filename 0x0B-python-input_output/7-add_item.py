@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# 9-add_item.py
 """ File name : 7-add_item.py"""
 import sys
 

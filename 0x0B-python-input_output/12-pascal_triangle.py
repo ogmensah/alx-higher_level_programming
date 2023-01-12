@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# 14-pascal_triangle.py
-# Carlos Barros <1543@holbertonschool.com>
-""" File name : 14-pascal_triangle.py
+""" File name : 12-pascal_triangle.py
 """
 
 
