@@ -21,7 +21,7 @@ class Square(Rectangle):
         """
         self.integer_validator("size", size)
         super().__init__(size, size)
-        elf.__size = sizei
+        self.__size = size
 
     def __str__(self):
         """print string"""
