@@ -32,7 +32,8 @@ class Base(object):
 
     @classmethod
     def save_to_file(cls, list_objs):
-        """save_to_file: writes the JSON string representation of list_objs to a file
+        """save_to_file: writes the JSON string representation
+        of list_objs to a file
         Args:
             list_objs (list): list of instances who inherits of Base
         """
