@@ -9,7 +9,7 @@ class Student(object):
         """__init__ initialized constructor
         Args:
             first_name (str): first name
-            last_name (str: last name
+            last_name (str): last name
             age (int): age
         """
         self.first_name = first_name

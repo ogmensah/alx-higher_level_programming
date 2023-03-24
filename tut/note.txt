@@ -1,0 +1,22 @@
+Methods of file Objects
+f.read() - reads some quantity (size) of data and returns strings (in text mode) or bytes (in binary mode).
+f.readline() - reads a single line from the file
+f.readlines() - reads all the lines in the file
+f.write() - writes strings to the file and returns the number of characters written
+f.tell() returns an integer giving the file object’s current position in the file represented as number of bytes from the beginning of the file when in binary mode and an opaque number when in text mode.
+
+To change the file object’s position, use f.seek(offset, whence). The position is computed from adding offset to a reference point; the reference point is selected by the whence argument. A whence value of 0 measures from the beginning of the file, 1 uses the current file position, and 2 uses the end of the file as the reference point.
+f.seek()
+
+SAVING STRUCTURED DATA WITH JSON (JavaScript Object Notation)
+
+Note: The JSON format is commonly used by modern applications to allow for data exchange. Many programmers are already familiar with it, which makes it a good choice for interoperability.
+
+exmaples of json use
+x = data
+json.dumps(x) - this views the json string representation of the data stored in x
+
+json.dump(x, f) - this writes the json string representation of the data stored in x in the file, f.
+
+x = json.load(f) - to open f (which is a binary or text file object) for readingNote: JSON file must be encoded in  UTF-8. Use encoding="utf-8" when opening JSON file as a text file for both reading and writing.
+
